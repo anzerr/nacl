@@ -7,9 +7,21 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"author": "anzerr",
+	"license": "MIT",
 	"dependencies": {
 		"blake2b": "git+https://github.com/anzerr/blake2b.git"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:anzerr/nacl.git"
+	},
+	"engines": {
+		"node": ">= 0.10.0"
+	},
+	"types": "nacl-fast.d.ts",
+	"bugs": {
+		"url": "https://github.com/anzerr/nacl/issues"
+	},
+	"homepage": "https://github.com/anzerr/nacl#readme"
 }
