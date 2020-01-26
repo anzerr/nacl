@@ -19,9 +19,7 @@
 	"author": "anzerr",
 	"main": "nacl-fast.js",
 	"types": "nacl-fast.d.ts",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
+	"scripts": {},
 	"dependencies": {
 		"blake2b": "git+https://github.com/anzerr/blake2b.git"
 	},
