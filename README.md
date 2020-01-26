@@ -1,5 +1,7 @@
 
 ### `Intro`
+![GitHub Actions status | publish](https://github.com/anzerr/nacl/workflows/publish/badge.svg)
+
 Ported in 2014 by Dmitry Chestnykh and Devi Mandiri.
 Public domain.
 

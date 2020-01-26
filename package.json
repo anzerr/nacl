@@ -1,27 +1,32 @@
 {
 	"name": "nacl",
 	"version": "1.0.3",
-	"description": "",
-	"main": "nacl-fast.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [],
-	"author": "anzerr",
-	"license": "MIT",
-	"dependencies": {
-		"blake2b": "git+https://github.com/anzerr/blake2b.git"
+	"keywords": [
+		"crypto",
+		"nacl",
+		"nodejs",
+		"util"
+	],
+	"homepage": "https://github.com/anzerr/nacl#readme",
+	"bugs": {
+		"url": "https://github.com/anzerr/nacl/issues"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:anzerr/nacl.git"
 	},
+	"license": "MIT",
+	"author": "anzerr",
+	"main": "nacl-fast.js",
+	"types": "nacl-fast.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"blake2b": "git+https://github.com/anzerr/blake2b.git"
+	},
 	"engines": {
 		"node": ">= 0.10.0"
 	},
-	"types": "nacl-fast.d.ts",
-	"bugs": {
-		"url": "https://github.com/anzerr/nacl/issues"
-	},
-	"homepage": "https://github.com/anzerr/nacl#readme"
+	"description": ""
 }
